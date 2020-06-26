@@ -11,6 +11,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.text.DateFormat;
+import java.util.Date;
+
 import usuario.app.cadas.database.DadosOpenHelper;
 import usuario.app.cadas.dominio.entidades.Calculo;
 import usuario.app.cadas.dominio.repositorios.CalculoRepositorio;
@@ -83,7 +86,7 @@ public class CadastroCalculoActivity extends AppCompatActivity {
         return calculoRepositorio.buscarCalculo(edTxtNome.getText().toString().toUpperCase()) != null;
     }
     private boolean dadosValidos(){
-        return edTxtNome.getText().toString().compareTo("") != 0 && edTxtExpressao.getText().toString().compareTo("") != 0;
+        return edTxtNome.getText().toString().compareTo("") != 0 && edTxtExpressao.getText().toString().compareTo("") != 0 && edTxtData.getText().toString().compareTo("") != 0;
     }
     private void criarRepositorioConexao(){
         calculoRepositorio = new CalculoRepositorio(conexao);
