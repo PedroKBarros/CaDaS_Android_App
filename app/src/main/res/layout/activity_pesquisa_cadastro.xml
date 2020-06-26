@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grandient_background"
+    tools:context=".PesquisaCadastroActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="@color/colorFontTextViewTitle"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:background="@drawable/text_view_title_background_color"
+            android:text="@string/activity_pesquisa_cadastro_title" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorFontTextViewTitle"
+            android:text="@string/activity_cadastro_title_campo_nome" />
+
+        <EditText
+            android:id="@+id/ed_txt_pesquisa_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:background="@drawable/campos"
+            android:textAlignment="textStart"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/bt_pesquisa_voltar"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/click_button"
+                android:textColor="@color/colorFontActivityMainBemVindo"
+                android:text = "@string/activity_cadastro_botao_voltar" />
+            <Button
+                android:id="@+id/bt_pesquisa_pesquisar"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/click_button"
+                android:textColor="@color/colorFontActivityMainBemVindo"
+                android:text = "@string/activity_pesquisa_cadastro_botao_pesquisar" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorFontTextViewTitle"
+            android:text="@string/activity_pesquisa_cadastro_title_campo_resultado" />
+
+        <EditText
+            android:id="@+id/ed_txt_resultado"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:ems="10"
+            android:textSize="20sp"
+            android:background="@drawable/campos"
+            android:textAlignment="viewStart"/>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

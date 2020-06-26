@@ -36,6 +36,13 @@ public class MenuActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        botaoPesquisarCalculo.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(getBaseContext(), PesquisaCadastroActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }
