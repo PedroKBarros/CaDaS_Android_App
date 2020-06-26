@@ -4,15 +4,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/grandient_background"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/colorFontActivityMainBemVindo"
+            android:textSize="40sp"
+            android:text="@string/activity_main_bem_vindo" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="70sp"
+            android:textColor="@color/colorFontActivityMainNomeApp"
+            android:textStyle="bold"
+            android:textAlignment="textEnd"
+            android:text="@string/activity_main_nome_app" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginTop="80dp"
+            android:textColor="@color/colorFontActivityMainBemVindo"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:text="@string/activity_main_titulo_descricao_app" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/colorFontActivityMainBemVindo"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:text="@string/activity_main_descricao_app" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/bt_sair"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:background="@drawable/click_button"
+                android:textColor="@color/colorFontActivityMainBemVindo"
+                android:text = "@string/activity_main_botao_sair" />
+            <Button
+                android:id="@+id/bt_proximo"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:background="@drawable/click_button"
+                android:textColor="@color/colorFontActivityMainBemVindo"
+                android:text = "@string/activity_main_botao_proximo" />
+        </LinearLayout>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">CaDaS</string>
+    <string name="activity_main_bem_vindo">Bem Vindo ao</string>
+    <string name="activity_main_nome_app">CaDaS</string>
+    <string name="activity_main_titulo_descricao_app">Como ajudamos você?</string>
+    <string name="activity_main_descricao_app">Com esse app você poderá salvar todos os seus cálculos,
+        podendo atribui-los nomes e descrições que possibilitarão a fácil reutilização deles!</string>
+    <string name="activity_main_botao_sair">Sair</string>
+    <string name="activity_main_botao_proximo">Próximo</string>
 </resources>
