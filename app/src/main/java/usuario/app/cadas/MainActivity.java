@@ -43,6 +43,12 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
+        botaoProximo.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                //Mudar para proxima activity
+            }
+        });
 
     }
 
