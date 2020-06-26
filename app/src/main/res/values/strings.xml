@@ -11,4 +11,14 @@
     <string name="activity_menu_botao_consultar_calculo">Pesquisar por Cálculo</string>
     <string name="activity_menu_botao_listar_calculos">Lista de Cálculos</string>
     <string name="activity_menu_botao_sair">Sair</string>
+    <string name="activity_cadastro_title">Novo Cálculo</string>
+    <string name="activity_cadastro_title_campo_nome">Nome</string>
+    <string name="activity_cadastro_title_campo_expressao">Cálculo ou Expressão</string>
+    <string name="activity_cadastro_title_campo_data">Data (automático)</string>
+    <string name="activity_cadastro_title_campo_descricao">Descrição (opcional)</string>
+    <string name="activity_cadastro_botao_voltar">Voltar</string>
+    <string name="activity_cadastro_botao_confirmar">Confirmar</string>
+    <string name="activity_cadastro_dados_invalidos">Ops! Você não preencheu o nome e/ou a expressão.</string>
+    <string name="activity_cadastro_calculo_cadastrado_sucesso">Novo cálculo cadastrado com sucesso!</string>
+    <string name="activity_cadastro_calculo_mesmo_nome">Ops! Já existe um cálculo cadastrado com esse nome.</string>
 </resources>

@@ -5,4 +5,6 @@
     <color name="colorAccent">#03DAC5</color>
     <color name="colorFontActivityMainNomeApp">#0DADDD</color>
     <color name="colorFontActivityMainBemVindo">#FFFFFF</color>
+    <color name="colorFontTextViewTitle">#FFFFFF</color>
+    <color name="campo">#99aab5</color>
 </resources>
