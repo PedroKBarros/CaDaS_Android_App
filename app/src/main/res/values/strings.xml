@@ -7,4 +7,8 @@
         podendo atribui-los nomes e descrições que possibilitarão a fácil reutilização deles!</string>
     <string name="activity_main_botao_sair">Sair</string>
     <string name="activity_main_botao_proximo">Próximo</string>
+    <string name="activity_menu_botao_cadastrar_calculo">Novo Cálculo</string>
+    <string name="activity_menu_botao_consultar_calculo">Pesquisar por Cálculo</string>
+    <string name="activity_menu_botao_listar_calculos">Lista de Cálculos</string>
+    <string name="activity_menu_botao_sair">Sair</string>
 </resources>

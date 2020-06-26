@@ -6,5 +6,57 @@
     android:layout_height="match_parent"
     android:background="@drawable/grandient_background"
     tools:context=".MenuActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:padding="30dp"
+            android:textColor="@color/colorFontActivityMainNomeApp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="@string/activity_main_nome_app" />
+        <Button
+            android:id="@+id/bt_cadastrar_calculo"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/click_button_menu"
+            android:textColor="@color/colorFontActivityMainBemVindo"
+            android:text = "@string/activity_menu_botao_cadastrar_calculo" />
+        <Button
+            android:id="@+id/bt_consultar_calculo"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/click_button_menu"
+            android:textColor="@color/colorFontActivityMainBemVindo"
+            android:text = "@string/activity_menu_botao_consultar_calculo" />
+        <Button
+            android:id="@+id/bt_listar_calculos"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/click_button_menu"
+            android:textColor="@color/colorFontActivityMainBemVindo"
+            android:text = "@string/activity_menu_botao_listar_calculos" />
+        <Button
+            android:id="@+id/bt_sair"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/click_button_menu"
+            android:textColor="@color/colorFontActivityMainBemVindo"
+            android:text = "@string/activity_menu_botao_sair" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
