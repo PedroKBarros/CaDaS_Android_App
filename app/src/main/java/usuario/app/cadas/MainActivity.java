@@ -31,11 +31,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         botaoProximo = (Button) findViewById(R.id.bt_proximo);
-        botaoSair = (Button) findViewById(R.id.bt_sair);
+        botaoSair = (Button) findViewById(R.id.bt_sair_main);
         criarConexao();
         criarRepositorioConexao();
         if (calculoRepositorio.temTupla()) {
-        //Mudar para proxima activity
+            Intent intent = new Intent(getBaseContext(), MenuActivity.class);
+            startActivity(intent);
         }
         botaoSair.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -46,7 +47,8 @@ public class MainActivity extends AppCompatActivity {
         botaoProximo.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                //Mudar para proxima activity
+                Intent intent = new Intent(getBaseContext(), MenuActivity.class);
+                startActivity(intent);
             }
         });
 

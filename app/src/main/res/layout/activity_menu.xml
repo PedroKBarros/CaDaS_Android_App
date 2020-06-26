@@ -49,7 +49,7 @@
             android:textColor="@color/colorFontActivityMainBemVindo"
             android:text = "@string/activity_menu_botao_listar_calculos" />
         <Button
-            android:id="@+id/bt_sair"
+            android:id="@+id/bt_sair_menu"
             android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

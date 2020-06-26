@@ -49,7 +49,7 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
             <Button
-                android:id="@+id/bt_sair"
+                android:id="@+id/bt_sair_main"
                 android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
