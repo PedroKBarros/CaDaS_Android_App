@@ -90,4 +90,16 @@ public class CalculoRepositorio {
 
         return null;
     }
+    public int totalTuplas(){
+        List<Calculo> calculos = new ArrayList<Calculo>();
+        StringBuilder sql = new StringBuilder();
+        sql.append("SELECT NOME, EXPRESSAO, DATA, DESCRICAO ");
+        sql.append("FROM CALCULO");
+
+        Cursor resultado = conexao.rawQuery(sql.toString(), null);
+       return resultado.getCount();
+    }
+    public boolean temTupla(){
+        return totalTuplas() > 0;
+    }
 }

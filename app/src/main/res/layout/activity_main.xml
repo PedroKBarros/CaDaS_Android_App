@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="5dp"
             android:textColor="@color/colorFontActivityMainBemVindo"
             android:textSize="40sp"
             android:text="@string/activity_main_bem_vindo" />
@@ -31,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="30sp"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="50dp"
             android:textColor="@color/colorFontActivityMainBemVindo"
             android:textAlignment="textStart"
             android:textStyle="bold"
@@ -47,14 +47,13 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="10dp"
             android:orientation="horizontal">
             <Button
                 android:id="@+id/bt_sair"
                 android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
-                android:layout_marginHorizontal="30dp"
+                android:layout_marginHorizontal="10dp"
                 android:background="@drawable/click_button"
                 android:textColor="@color/colorFontActivityMainBemVindo"
                 android:text = "@string/activity_main_botao_sair" />
@@ -63,7 +62,7 @@
                 android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
-                android:layout_marginHorizontal="30dp"
+                android:layout_marginHorizontal="10dp"
                 android:background="@drawable/click_button"
                 android:textColor="@color/colorFontActivityMainBemVindo"
                 android:text = "@string/activity_main_botao_proximo" />
