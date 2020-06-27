@@ -29,4 +29,5 @@
     <string name="activity_lista_calculos_title">Lista de Cálculos</string>
     <string name="activity_lista_title_campo_lista">Cálculos:</string>
     <string name="activity_lista_calculos_nao_tem_calculos">Não há cálculos.</string>
+    <string name="erro_conexao_bd">Ops! Não foi possível se conectar com o banco de dados. O app será fechado.</string>
 </resources>
