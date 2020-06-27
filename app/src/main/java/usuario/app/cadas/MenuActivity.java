@@ -43,6 +43,13 @@ public class MenuActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        botaoListarCalculos.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(getBaseContext(), ListaCalculosActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }

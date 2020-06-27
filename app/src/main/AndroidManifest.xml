@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".PesquisaCadastroActivity"></activity>
+        <activity android:name=".ListaCalculosActivity"></activity>
+        <activity android:name=".PesquisaCadastroActivity" />
         <activity android:name=".CadastroCalculoActivity" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".MainActivity">

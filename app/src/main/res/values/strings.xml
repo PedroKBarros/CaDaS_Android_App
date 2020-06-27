@@ -26,4 +26,7 @@
     <string name="activity_pesquisa_cadastro_botao_pesquisar">Pesquisar</string>
     <string name="activity_pesquisa_cadastro_dados_invalidos">Ops! Você não preencheu o nome do cálculo.</string>
     <string name="activity_pesquisa_cadastro_sem_resultado">Nenhum cálculo encontrado.</string>
+    <string name="activity_lista_calculos_title">Lista de Cálculos</string>
+    <string name="activity_lista_title_campo_lista">Cálculos:</string>
+    <string name="activity_lista_calculos_nao_tem_calculos">Não há cálculos.</string>
 </resources>
